@@ -6,13 +6,13 @@
   }
 
   th {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 8px;
     text-align: center;
   }
 
   td {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 8px;
   }
 
@@ -68,7 +68,7 @@
     $total_total += $row['total'];
   ?>
     <tr>
-      <td><?= $no++ ?></td>
+      <td style="text-align: center;"><?= $no++ ?></td>
       <td><?= $row['tahun'] ?></td>
       <td><?= 'Rp ' . number_format($row['jumlah_gapok'], 0, ',', '.') ?></td>
       <td><?= 'Rp ' . number_format($row['jumlah_tunjangan'], 0, ',', '.') ?></td>

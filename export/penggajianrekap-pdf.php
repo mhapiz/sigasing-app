@@ -11,7 +11,7 @@ try {
   include 'res/penggajianrekap-res.php';
   $content = ob_get_clean();
 
-  $html2pdf = new Html2Pdf('P', 'A4', 'en');
+  $html2pdf = new Html2Pdf('L', 'A4', 'en');
   $html2pdf->pdf->setDisplayMode('fullpage');
   $html2pdf->writeHTML($content);
   $html2pdf->output('example05.pdf');
