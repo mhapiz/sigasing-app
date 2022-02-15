@@ -22,7 +22,7 @@
   <div class="card">
     <div class="card-header">
       <h3 class="card-title">Rekap Penggajian</h3>
-      <a href="?page=bagiancreate" class="btn btn-success btn-sm float-right">
+      <a href="export/penggajianrekap-pdf.php" class="btn btn-success btn-sm float-right">
         <i class="fas fa-save mr-2   "></i>
         Export PDF</a>
     </div>
